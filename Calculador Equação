@@ -1,0 +1,11 @@
+def calcular_y(x):
+    a = 2
+    b = 0.5
+    c = 1
+    y = a * x**2 + b * x + c
+    return y
+
+x = float(input("Digite o valor de x: "))
+
+y = calcular_y(x)
+print(f"O valor de y para x = {x} é {y}")
